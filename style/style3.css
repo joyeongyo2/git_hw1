@@ -1,0 +1,63 @@
+  td,th{text-align:left;}
+	table{margin:50px;border-color:blue;background-color:pink;}
+	#under{width:500px;height:40px;float:right;margin-left:40px;}
+
+	#type1{
+		color:blue;
+	}
+	#type2{
+		text-align:center;
+	}
+	#type3{
+      color:purple;
+      text-align:center;
+      font-family:"궁서체";
+      font-size:25px;
+
+    }
+  #type4{
+
+    	color:green;
+    }
+  #type5{
+    	text-align:right;
+    	
+    	float:right;
+    
+    }
+  #box{
+    	
+    	margin-left:50px;
+    	width:200px;
+    	height:50px;
+    	
+    }
+    
+    body{background-color:gray;
+    	width:960px;
+    }
+
+   
+    <!--
+ a:link{text-decoration:none;color:green}
+ a:visited{text-decoration:none;color:blue}
+ a:active{text-decoration:none;color:red}
+ a:hover{text-decoration:underline;color:purple}
+ -->
+    
+#navbar {width:960px; height:20px;background-color:yellow;margin-top:20px;}
+#navbar ul {margin:0;padding:0;}
+#navbar ul li {float:left;}
+#navbar ul li a{
+  color:black; background-color:gold;
+  display:block;
+  width:299px;
+  text-align:center;
+  padding:0px 10px; 
+  font: bold 12px/30px ;
+  text-decoration:none;
+  margin-right:1px;
+}
+#navbar ul li a.selected {background-color:purple;}
+#navbar ul li a:hover {background-color:green;}
+}

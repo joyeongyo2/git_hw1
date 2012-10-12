@@ -12,6 +12,7 @@ body{
 #type1{
 	color:green;
 	text-align: center;
+	font-family:"굴림체";
 }
 #type2{
 
@@ -34,7 +35,7 @@ body{
 #navbar ul {margin:0;padding:0;}
 #navbar ul li {float:left;}
 #navbar ul li a{
-	color:black; background-color:green;
+	color:black; background-color:gold;;
 	display:block;
 	width:299px;
 	text-align:center;
@@ -44,4 +45,4 @@ body{
 	margin-right:1px;
 }
 #navbar ul li a.selected {background-color:purple;}
-#navbar ul li a:hover {background-color:gold;}
+#navbar ul li a:hover {background-color:green;}
