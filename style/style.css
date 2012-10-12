@@ -1,0 +1,47 @@
+#wrap {width:400px;height:430px;float:left;background-color:none; margin-left:40px;margin-top: 20px;}
+#right1{width:450px;height:430px;float:right;background-color:none;margin-right:70px;margin-top:10px;}
+#under{width:500px;height:40px;float:left;margin-left:40px;}
+body{
+ font-family: "굴림";
+ width: 960px;
+ font-size:20px;
+
+ 
+ background-image:url(./images/background.gif)
+}
+#type1{
+	color:green;
+	text-align: center;
+}
+#type2{
+
+    	color:blue;
+    	text-align: center;
+    }
+#type3{
+    	text-align:center;
+    	
+    	float:right;
+    
+    }
+ <!--
+ a:link{text-decoration:none;color:green}
+ a:visited{text-decoration:none;color:blue}
+ a:active{text-decoration:none;color:red}
+ a:hover{text-decoration:underline;color:purple}
+ -->
+#navbar {width:960px; height:20px;background-color:yellow;margin-top:20px}
+#navbar ul {margin:0;padding:0;}
+#navbar ul li {float:left;}
+#navbar ul li a{
+	color:black; background-color:green;
+	display:block;
+	width:299px;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/30px ;
+	text-decoration:none;
+	margin-right:1px;
+}
+#navbar ul li a.selected {background-color:purple;}
+#navbar ul li a:hover {background-color:gold;}
